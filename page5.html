@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+
+    <title>Modelo 2</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Sobre os princípios do Guia Alimentar para a população brasileira.</h1>
+
+
+            <section id="aux">
+                <nav>
+                    <ul>
+                        <li> <a href="#"> <input type="radio" id="btn1" checked></a>
+                        <li> <a href="#"> <input type="radio" id="btn2" disabled></a>
+                        <li> <a href="#"> <input type="radio" id="btn3" disabled></a>
+                        <li> <a href="#"> <input type="radio" id="btn4" disabled></a>
+                        <li> <a href="#"> <input type="radio" id="btn5" disabled></a>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <article>
+            <h2>5 - Guias alimentares ampliam a autonomia nas escolhas alimentares.</h2>
+            <label for="concordo">
+                <div>
+                    <input type="radio" name="alt" id="concordo">
+                    <label for="concordo">Concordo</label>
+                </div>
+            </label>
+
+            <label for="indiferente">
+                <div>
+                    <input type="radio" name="alt" id="indiferente">
+                    <label for="indiferente">Indiferente</label>
+                </div>
+            </label>
+
+            <label for="discordo">
+                <div>
+                    <input type="radio" name="alt" id="discordo">
+                    <label for="discordo">Discordo</label>
+                </div>
+            </label>
+        </article>
+
+        <footer>
+
+            <input type="button" value="PREV" id="prev">
+            <div id="num">
+                <p>1/5</p>
+            </div>
+            <input type="button" value="NEXT" id="next" onclick="newPage()">
+        </footer>
+
+
+
+    </main>
+
+</body>
+</html>
